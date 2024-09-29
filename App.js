@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { StyleSheet, Pressable, TextInput, View } from "react-native";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
-import { TogglePasswordVisibility } from "./togglePasswordVisibility"; //local onde você criou o componente
+import { TogglePasswordVisibility } from "./components/togglePasswordVisibility"; //local onde você criou o componente
 
 export default function App() {
   const { passwordVisibility, icon, handlePasswordVisibility } = TogglePasswordVisibility();
